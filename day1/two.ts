@@ -27,6 +27,6 @@ const fn = () => {
     return sum + leftValue * occurenceInRight;
   }, 0);
 
-  console.log(total);
+  return total;
 };
 perf(fn, "Day1-Two");

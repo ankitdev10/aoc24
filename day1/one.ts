@@ -22,7 +22,7 @@ const fn = () => {
     return sum + Math.abs(leftValue - formatted.right[index]);
   }, 0);
 
-  console.log(total);
+  return total;
 };
 
 perf(fn, "Day1-One");
